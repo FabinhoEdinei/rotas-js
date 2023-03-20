@@ -1,0 +1,41 @@
+.colored-circles{
+	display: flex;
+	justify-content: left;
+	
+}
+.circles-container{
+	display: flex;
+	justify-content: space-between;
+	width: 100px;
+	height: 180px;
+	padding: 5px;
+	margin-left: 10px;
+	margin-right: 30px;
+}
+.circles-container div {
+	width: 260px;
+	height: 120px;
+	border-radius: 19px;
+	position: relative;
+}
+.circles-container .circle1{
+	background-color: red;
+}
+.circles-container .circle2{
+	background-color: blue;
+}
+.circles-container img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50%;
+	height: 50%;
+	
+}
+.circles-container img:hover {
+	width: 600px;
+	height:900px;
+	translate: transform(75%,45%);
+	
+}
